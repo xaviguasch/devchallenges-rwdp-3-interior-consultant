@@ -1,8 +1,72 @@
+/* font-family: 'Crimson Pro', serif;
+
+font-family: 'Montserrat', sans-serif; */
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  padding: 0;
   margin: 0;
+  padding: 0 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  background: #181719;
+}
+
+/*  ==================
+    Typography
+=====================  */
+
+.section-title {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-weight: 300;
+}
+
+.btn-text {
+  font-weight: 600;
+}
+
+.designer-name {
+  font-weight: 500;
+}
+
+.designer-profession {
+  font-weight: 500;
+  color: #828282;
+}
+
+.designer-signature {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.footer-text {
+  font-weight: 600;
+  color: #a9a9a9;
+}
+
+/* ==================
+    general layout
+===================== */
+
+.hero-art {
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.designer-label {
+  border: 1px red solid;
+}
+
+.designer-card {
 }
