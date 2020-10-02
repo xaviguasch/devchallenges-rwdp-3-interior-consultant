@@ -28,6 +28,7 @@ body {
 
 .subtitle {
   font-weight: 300;
+  width: 68%;
 }
 
 .btn-text {
@@ -35,15 +36,23 @@ body {
 }
 
 .designer-name {
+  font-size: 1rem;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .designer-profession {
+  font-size: 0.8rem;
   font-weight: 500;
   color: #828282;
+  margin-top: 0;
 }
 
 .designer-signature {
+  width: 75%;
+  margin-top: 0;
+  margin-left: 0.5em;
+  font-size: 1.4rem;
   font-family: 'Lora', serif;
   font-weight: 700;
 }
@@ -57,6 +66,10 @@ body {
     general layout
 ===================== */
 
+.hero-info {
+  margin-bottom: 2em;
+}
+
 .hero-art {
 }
 
@@ -65,8 +78,38 @@ body {
 }
 
 .designer-label {
-  border: 1px red solid;
+  position: relative;
+  background: #181719;
+  padding: 0.5em;
+  top: -80px;
+  left: 18px;
+  width: 85%;
+  margin: 0 auto;
+  z-index: 10;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .designer-card {
+  display: flex;
+}
+
+.designer-portrait {
+  padding: 1em;
+}
+
+.designer-image {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em;
+}
+
+.footer-text {
+  border-top: 1px solid #ffffff;
+  padding-top: 1em;
 }
