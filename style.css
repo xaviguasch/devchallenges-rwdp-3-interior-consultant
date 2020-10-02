@@ -223,7 +223,7 @@ footer {
   .nav-list {
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 1em;
+    margin-right: 2em;
   }
 
   .nav-item {
@@ -282,6 +282,11 @@ footer {
   .header-mobile-title {
     margin-left: 1.2em;
   }
+
+  .nav-list {
+    margin-right: 0.5em;
+  }
+
   .header,
   .hero {
     max-width: 1250px;
